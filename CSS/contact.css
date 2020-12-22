@@ -1,0 +1,615 @@
+/* Large View */
+@media only screen and (min-width:1300px) {
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: rgb(117 81 68);
+}
+h4{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color:rgb(117 81 68);
+}
+.baslik{
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  margin-left: 90px;
+}
+.link{
+  color: rgb(255 255 255 / 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 130%;
+  padding-left: 10%;
+  padding-right:10%;
+  border: solid black 2px;
+  border-radius: 10%;
+  background-color: rgb(99 42 19 / 70%);
+
+}
+.link:hover{
+  color: rgb(251 5 51 / 1);
+  background-color: rgb(80 28 10 / 0.8);
+  transition: ease 0.5s;
+}
+#nav{
+  height: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  width: 95%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .sayfa{
+  padding-bottom: 30px;
+}
+.sticky a{
+  margin-left: 20px;
+  padding: 8px;
+  background-color: rgb(99 42 19 / 100%);
+}
+#contact2{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+footer{
+  text-align: center;
+  display: block;
+  float: left;
+  width: 92%;
+  background-color: rgb(99 42 19 / 70%);
+  margin:4px;
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.sol{
+  float: left;
+  margin: 20px;
+  width: 25%;
+}
+#sayfa{
+  background-color: rgb(99 42 19 / 70%);
+  width: 90%;
+  height: 27em;
+  border: solid black 2px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-left: 80px;
+  padding-bottom: 20px;
+}
+.sag{
+  float: right;
+  margin: 10px;
+  font-size: 22px;
+
+}
+.form{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  border: solid black 2px;
+  margin-right: 5em;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(99 42 19 / 80%);
+
+}
+li{
+  margin-bottom: 20px;
+}
+#abone{
+  font-size: 160%;
+  color: rgb(255 195 0 );
+  margin-left: 50px;
+}
+#email{
+  margin-left: 5px;
+  color: chocolate;
+}
+#mail{
+  border: solid chocolate 1px;
+  border-radius: 5px;
+}
+label,input{
+  margin: 5px;
+}
+button{
+  margin-top: 6px;
+}
+}
+#nav2{
+  display: none;
+}
+@media only screen and (max-width:1300px){
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: rgb(117 81 68);
+}
+h4{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color:rgb(117 81 68);
+}
+.baslik{
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  margin-left: 90px;
+}
+.link{
+  color: rgb(255 255 255 / 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 130%;
+  padding-left: 7%;
+  padding-right:7%;
+  border: solid black 2px;
+  border-radius: 10%;
+  background-color: rgb(99 42 19 / 70%);
+
+}
+.link:hover{
+  color: rgb(251 5 51 / 1);
+  background-color: rgb(80 28 10 / 0.8);
+  transition: ease 0.5s;
+}
+#nav{
+  height: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  width: 95%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .sayfa{
+  padding-bottom: 30px;
+}
+.sticky a{
+  margin-left: 20px;
+  padding: 8px;
+  background-color: rgb(99 42 19 / 100%);
+}
+#contact2{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+footer{
+  text-align: center;
+  display: block;
+  float: left;
+  width: 92%;
+  background-color: rgb(99 42 19 / 70%);
+  margin:4px;
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.sol{
+  float: left;
+  margin: 20px;
+  width: 25%;
+}
+#maps{
+  width: 150%;
+  height: 25em;
+}
+#sayfa{
+  background-color: rgb(99 42 19 / 70%);
+  width: 90%;
+  height: 27em;
+  border: solid black 2px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-left: 60px;
+  padding-bottom: 20px;
+}
+.sag{
+  float: right;
+  margin: 10px;
+  font-size: 17px;
+
+}
+.form{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  border: solid black 2px;
+  margin-right: 5em;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(99 42 19 / 80%);
+  font-size: 14px;
+
+}
+li{
+  margin-bottom: 20px;
+}
+#abone{
+  font-size: 160%;
+  color: rgb(255 195 0 );
+  margin-left: 40px;
+}
+#email{
+  margin-left: 5px;
+  color: chocolate;
+}
+#mail{
+  border: solid chocolate 1px;
+  border-radius: 5px;
+}
+label,input{
+  margin: 5px;
+}
+button{
+  margin-top: 6px;
+}
+}
+#nav2{
+  display: none;
+}
+@media only screen and (max-width:950px){
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: rgb(117 81 68);
+}
+h4{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color:rgb(117 81 68);
+}
+.baslik{
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  margin-left: 90px;
+}
+.link{
+  color: rgb(255 255 255 / 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 130%;
+  padding-left: 7%;
+  padding-right:7%;
+  border: solid black 2px;
+  border-radius: 10%;
+  background-color: rgb(99 42 19 / 70%);
+
+}
+.link:hover{
+  color: rgb(251 5 51 / 1);
+  background-color: rgb(80 28 10 / 0.8);
+  transition: ease 0.5s;
+}
+#nav{
+  height: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  width: 95%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .sayfa{
+  padding-bottom: 30px;
+}
+.sticky a{
+  margin-left: 20px;
+  padding: 8px;
+  background-color: rgb(99 42 19 / 100%);
+}
+#contact2{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+footer{
+  text-align: center;
+  display: block;
+  float: left;
+  width: 92%;
+  background-color: rgb(99 42 19 / 70%);
+  margin:4px;
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+.sol{
+  float: left;
+  margin: 20px;
+  width: 25%;
+}
+#maps{
+  width: 150%;
+  height: 25em;
+}
+#sayfa{
+  background-color: rgb(99 42 19 / 70%);
+  width: 90%;
+  height: 27em;
+  border: solid black 2px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+.sag{
+  float: right;
+  margin: 10px;
+  font-size: 14px;
+
+}
+.form{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  border: solid black 2px;
+  margin-right: 5em;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(99 42 19 / 80%);
+  font-size: 13px;
+
+}
+li{
+  margin-bottom: 20px;
+}
+#abone{
+  font-size: 160%;
+  color: rgb(255 195 0 );
+}
+#email{
+  margin-left: 5px;
+  color: chocolate;
+}
+#mail{
+  border: solid chocolate 1px;
+  border-radius: 5px;
+}
+label,input{
+  margin: 5px;
+}
+button{
+  margin-top: 6px;
+}
+}
+#nav2{
+  display: none;
+}
+/* MOBILE */
+@media only screen and (max-width:800px){
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: rgb(117 81 68);
+}
+h4{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color:rgb(117 81 68);
+}
+.baslik{
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  margin-left: 0;
+}
+.link{
+  color: rgb(255 255 255 / 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: solid black 2px;
+  border-radius: 10%;
+  background-color: rgb(99 42 19 / 70%);
+  margin-left: 3px;
+
+}
+.link:hover{
+  color: rgb(251 5 51 / 1);
+  background-color: rgb(80 28 10 / 0.8);
+  transition: ease 0.5s;
+}
+#nav{
+  height: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  display: inline-block;
+  width: 95%;
+  margin-right: 5px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .sayfa{
+  padding-bottom: 30px;
+}
+.sticky a{
+  margin-left: 20px;
+  padding: 8px;
+  background-color: rgb(99 42 19 / 100%);
+}
+#contact2{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+footer{
+  display: none;
+}
+.sol{
+  float: left;
+  margin: 20px;
+  width: 50%;
+}
+#maps{
+  width: 175%;
+  height: 25em;
+  margin-left: 5px;
+}
+#sayfa{
+  background-color: rgb(99 42 19 / 70%);
+  width: 90%;
+  height: 54em;
+  border: solid black 2px;
+  margin: 5px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 0
+}
+.sag{
+  float: right;
+  margin: 10px;
+  font-size: 16px;
+
+}
+.form{
+  width: 80%;
+  border: solid black 2px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(99 42 19 / 80%);
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 40px;
+
+}
+li{
+  margin-bottom: 20px;
+}
+#abone{
+  font-size: 160%;
+  color: rgb(255 195 0 );
+}
+#email{
+  margin-left: 5px;
+  color: chocolate;
+}
+#mail{
+  border: solid chocolate 1px;
+  border-radius: 5px;
+}
+label,input{
+  margin: 5px;
+}
+button{
+  margin-top: 6px;
+}
+#nav2{
+  display: none;
+}
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Hagia Sophia History</title>
+      <link rel="stylesheet" href="../CSS/contact.css">
+      <script src = "../JS/contact.js"></script>
+      <link rel="icon" type="image/png" href="../Gallery/ayasofya.png">
+    </head>
+    <body>
+      <div class="baslik">
+        <header>HAGIA SOPHIA</header>
+        <h4>"Pearl of Turkey"</h4>
+
+      </div>
+      <div id="nav">
+        <nav>
+          <a id="history" class="link" href="main.html">History</a>
+          <a id="photo" class="link"    href="photo.html">Photo Gallery</a>
+          <a id="contact" class="link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div id="nav2">
+        <a id="history2" class="link" href="main.html">History</a>
+        <a id="photo2" class="link"    href="photo.html">Photo Gallery</a>
+        <a id="contact2" class="link" href="contact.html">Contact</a>
+
+      </div>
+        <div id="sayfa">
+          <div class="sol">
+            <iframe id="maps" src="https://www.google.com/maps/d/embed?mid=1EE2V_21PjGAyfGgpDxjQTV6oN4s&hl=en" width="500" height="380"></iframe>
+          </div>
+          <div class="sag">
+            <ul>
+              <li>Phone Number:(0212) 312 ****</li>
+              <li>Email:ibb@gov.tr</li>
+              <li>Adress:Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul</li>
+            </ul>
+          </div>
+          <div class="form">
+            <h2 id="abone">SUBSCRIBE TO NEWSLETTER!</h2>
+            <form id="email">
+              <label for="mail">Email:</label><br>
+              <input type="text" id="mail" name="Email" value=""><br>
+              <label for="checkbox">Do you want to subscribe Istanbul BuyukSehir Belediyesi News?</label>
+              <input type="checkbox" id="checkbox" name="checkbox" value=""><br>
+              <button type="button" onclick="tursu()">Submit</button>
+
+
+            </form>
+
+          </div>
+        </div>
+        <footer>Erdal Aras Yesil Page Copyright 2020:)
+        </footer>
+        <script>
+          window.onscroll = function() {myFunction()};
+
+          var navbar = document.getElementById('nav');
+          var navbar2 = document.getElementById('nav2');
+
+          var sticky = navbar.offsetTop;
+
+          function myFunction() {
+          if (window.pageYOffset >= sticky) {
+          navbar.style.display="none"
+          navbar2.style.display="block"
+          navbar2.classList.add("sticky")
+          }
+          else {
+          navbar.style.display="block"
+          navbar2.style.display="none"
+          navbar2.classList.remove("sticky")
+          }
+        }
+
+        </script>
+
+
+
+    </body>
+</html>

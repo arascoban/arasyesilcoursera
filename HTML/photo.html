@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Hagia Sophia Photo Gallery</title>
+      <link rel="stylesheet" href="../CSS/photo.css">
+      <link href="../CSS/lightbox.css" rel="stylesheet">
+      <script src="../JS/jquery.js"></script>
+      <link rel="icon" type="image/png" href="../Gallery/ayasofya.png">
+
+
+    </head>
+    <body>
+      <div class="baslik">
+        <header>HAGIA SOPHIA</header>
+        <h4>"Pearl of Turkey"</h4>
+
+      </div>
+      <div id="nav">
+        <nav>
+          <a id="history" class="link" href="main.html">History</a>
+          <a id="photo" class="link"    href="photo.html">Photo Gallery</a>
+          <a id="contact" class="link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div id="nav2">
+        <a id="history2" class="link" href="main.html">History</a>
+        <a id="photo2" class="link"    href="photo.html">Photo Gallery</a>
+        <a id="contact2" class="link" href="contact.html">Contact</a>
+
+      </div>
+
+
+            <div class="row">
+
+              <div class="column">
+
+                <a  href="../Gallery/ayasofya1.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia SunShine"> <img  class="foto" src="../Gallery/thumbs/ayasofya1.jpg" alt="ayasofya1"></a>
+                <a  href="../Gallery/ayasofya2.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor"> <img class="foto" src="../Gallery/thumbs/ayasofya12.jpg" alt="ayasofya2"></a>
+                <a  href="../Gallery/ayasofya3.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor2"> <img class="foto" src="../Gallery/thumbs/ayasofya2.jpg" alt="ayasofya3"></a>
+
+              </div>
+
+              <div class="column">
+
+                <a  href="../Gallery/ayasofya5.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Outdoor"> <img class="foto" src="../Gallery/thumbs/ayasofya4.jpg" alt="ayasofya5"></a>
+                <a  href="../Gallery/ayasofya6.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor4"> <img class="foto" src="../Gallery/thumbs/ayasofya5.jpg" alt="ayasofya6"></a>
+                <a  href="../Gallery/ayasofya7.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor5"> <img class="foto" src="../Gallery/thumbs/ayasofya6.jpg" alt="ayasofya7"></a>
+
+              </div>
+
+              <div class="column">
+
+                <a  href="../Gallery/ayasofya9.jpg" data-lightbox="ayasofya" data-title="Istanbul"> <img class="foto" src="../Gallery/thumbs/ayasofya8.jpg" alt="ayasofya5"></a>
+                <a  href="../Gallery/ayasofya10.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor6"> <img class="foto" src="../Gallery/thumbs/ayasofya9.jpg" alt="ayasofya6"></a>
+                <a  href="../Gallery/ayasofya11.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor7"> <img class="foto" src="../Gallery/thumbs/ayasofya10.jpg" alt="ayasofya7"></a>
+
+              </div>
+
+              <div class="column">
+
+                <a  href="../Gallery/ayasofya12.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Motifs"> <img class="foto" src="../Gallery/thumbs/ayasofya11.jpg" alt="ayasofya8"></a>
+                <a  href="../Gallery/ayasofya8.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Cesme"> <img class="foto" src="../Gallery/thumbs/ayasofya7.jpg" alt="ayasofya8"></a>
+                <a  href="../Gallery/ayasofya4.jpg" data-lightbox="ayasofya" data-title="Hagia Sophia Indoor3"> <img class="foto" src="../Gallery/thumbs/ayasofya3.jpg" alt="ayasofya4"></a>
+
+              </div>
+
+
+          </div>
+          <div class="bottom">
+
+              <a class="sayfa activesayfa" href="photo.html">1</a>
+              <a class="sayfa" href="photo2.html">2</a>
+
+          </div>
+
+        <script src="../JS/lightbox.js"></script>
+        <script>
+          window.onscroll = function() {myFunction()};
+
+          var navbar = document.getElementById('nav');
+          var navbar2 = document.getElementById('nav2');
+
+          var sticky = navbar.offsetTop;
+
+          function myFunction() {
+          if (window.pageYOffset >= sticky) {
+          navbar.style.display="none"
+          navbar2.style.display="block"
+          navbar2.classList.add("sticky")
+          }
+          else {
+          navbar.style.display="block"
+          navbar2.style.display="none"
+          navbar2.classList.remove("sticky")
+          }
+        }
+
+        </script>
+        <footer>Erdal Aras Yesil Page Copyright 2020:)
+        </footer>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Hagia Sophia History</title>
+      <link rel="stylesheet" href="../CSS/main.css">
+      <link rel="icon" type="image/png" href="../Gallery/ayasofya.png">
+      <script src="../JS/jquery.js"></script>
+
+    </head>
+    <body>
+      <div class="baslik">
+        <header>HAGIA SOPHIA</header>
+        <h4>"Pearl of Turkey"</h4>
+
+      </div>
+      <div id="nav">
+        <nav>
+           <a id="history" class="link"  href="main.html">History</a>
+            <div class="dropdown">
+             <img class="menu" alt="arrow " src="../images/ok1.png">
+            <div class="content">
+              <a class="links" href="overview.html">Overview</a>
+              <a class="links" href="history.html">Hagia Sophia History</a>
+              <a class="links" href="design.html">Hagia Sophia's Design</a>
+              <a class="links" href="renovation.html">Renovations of Hagia Sophia</a>
+              <a class="links" href="today.html">Hagia Sofia Today</a>
+            </div>
+          </div>
+          <a id="photo" class="link" href="photo.html">Photo Gallery</a>
+          <a id="contact" class="link" href="contact.html">Contact</a>
+        </nav>
+        <div id="nav2">
+          <a id="history2" class="link"  href="main.html">History</a>
+           <div class="dropdown">
+            <img class="menu" alt="arrow " src="../images/ok1.png">
+           <div class="content">
+             <a class="links" href="overview.html">Overview</a>
+             <a class="links" href="history.html">Hagia Sophia History</a>
+             <a class="links" href="design.html">Hagia Sophia's Design</a>
+             <a class="links" href="renovation.html">Renovations of Hagia Sophia</a>
+             <a class="links" href="today.html">Hagia Sofia Today</a>
+           </div>
+         </div>
+         <a id="photo2" class="link" href="photo.html">Photo Gallery</a>
+         <a id="contact2" class="link" href="contact.html">Contact</a>
+
+        </div>
+
+      </div>
+      <section id="sol">
+        <h3>INDEX</h3>
+        <ul>
+          <li><a class="active links"  href="main.html">Overview</a></li>
+          <li><a class="links" href="history.html">Hagia Sophia History</a></li>
+          <li><a class="links" href="design.html">Hagia Sophia's Design</a></li>
+          <li><a class="links" href="renovation.html">Renovations of Hagia Sophia</a></li>
+          <li><a class="links" href="today.html">Hagia Sofia Today</a></li>
+        </ul>
+      </section>
+      <div id="right">
+          <img id="foto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBf3KvkeWr36E9pc1kjP6MEYmZMCKUMKqPDw&usqp=CAU" alt="Hagia Sophia">
+        <p>The Hagia Sophia is an enormous architectural marvel in Istanbul, Turkey, that was originally built as a Christian basilica nearly 1,500 years ago. Much like the Eiffel Tower in Paris or the Parthenon in Athens, the Hagia Sophia is a long-enduring symbol of the cosmopolitan city. However, as notable as the structure is itself, its role in the history of Istanbul and, for that matter, the world is also significant and touches upon matters related to international politics, religion, art and architecture.The Hagia Sophia anchors the Old City of Istanbul and has served for centuries as a landmark for both Orthodox Christians and Muslims, as its significance has shifted with that of the dominant culture in the Turkish city.
+
+Istanbul straddles the Bosporus strait, a waterway that serves as a geographic border between Europe and Asia. The Turkish city of nearly 15 million residents thus lies in both continents.</p>
+
+
+      </div>
+      <footer>Erdal Aras Yesil Page Copyright 2020:)
+      </footer>
+      <script>
+        let dropdownBtn = document.querySelector('.menu');
+        let menuContent = document.querySelector('.content');
+        dropdownBtn.addEventListener('click',()=>{
+          if(menuContent.style.display===""){
+              menuContent.style.display="block";
+              dropdownBtn.src="../images/Ok2.png";
+            } else {
+              menuContent.style.display="";
+              dropdownBtn.src="../images/Ok.png";
+            }
+        })
+
+
+      </script>
+      <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById('nav');
+        var navbar2 = document.getElementById('nav2');
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+        navbar.style.display="none"
+        navbar2.style.display="block"
+        navbar2.classList.add("sticky")
+        }
+        else {
+        navbar.style.display="block"
+        navbar2.style.display="none"
+        navbar2.classList.remove("sticky")
+        }
+      }
+
+      </script>
+
+    </body>
+</html>

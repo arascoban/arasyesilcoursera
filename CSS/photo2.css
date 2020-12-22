@@ -1,0 +1,253 @@
+
+/* LARGE SCREEN */
+@media only screen and (min-width:1282px) {
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: rgb(117 81 68);
+}
+h4{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color:rgb(117 81 68);
+}
+.baslik{
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  margin-left: 90px;
+
+
+}
+#nav{
+  height: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  width: 95%;
+}
+footer{
+  text-align: center;
+  float: left;
+  width: 87%;
+  background-color: rgb(99 42 19 / 70%);
+  margin:4px;
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 3.5em;
+}
+.link{
+  color: rgb(255 255 255 / 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 130%;
+  padding-left: 10%;
+  padding-right:10%;
+  border: solid black 2px;
+  border-radius: 10%;
+  background-color: rgb(99 42 19 / 70%);
+
+}
+.link:hover{
+  color: rgb(251 5 51 / 1);
+  background-color: rgb(80 28 10 / 0.8);
+  transition: ease 0.5s;
+}
+#photo{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+.active{
+  color: rgb(125 18 18);
+}
+.sayfa{
+  text-decoration: none;
+  color:black;
+  font-size: 130%;
+  margin-right: 0.5em;
+  border: solid black 1px;
+  background-color: brown;
+  }
+  .bottom{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+  }
+  .activesayfa{
+    background-color: green;
+  }
+  #video{
+    margin-left: 8.2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 82%;
+
+
+  }
+}
+  @media only screen and (max-width:1282px) {
+    body{
+      background-color: rgb(181 30 106 / 0.5);
+      margin:2px;
+      background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    /* HEAD SECTION */
+    header{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 220%;
+      color: rgb(117 81 68);
+    }
+    h4{
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      font-style: italic;
+      color:rgb(117 81 68);
+    }
+    /* NAV SECTION */
+    .link{
+      color: rgb(255 255 255 / 0.8);
+    }
+    .link:hover{
+      color: rgb(251 5 51 / 1);
+      background-color: rgb(80 28 10 / 0.8);
+      transition: ease 0.5s;
+    }
+    .active{
+      color: rgb(125 18 18);
+    }
+    nav{
+      text-align: center;
+      display:block;
+      position: relative;
+
+    }
+    .link{
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 20px;
+      padding-left: 7%;
+      padding-right: 7%;
+      border: solid black 2px;
+      border-radius: 10%;
+      background-color: rgb(99 42 19 / 70%);
+      height: auto;
+    }
+    .nav{
+      width:95%;
+      margin-top: 0.5em;
+      margin-left: 2em;
+    }
+
+    #photo{
+      color: black;
+      background-color: rgb(255 8 8 / 0.7);
+    }
+    #video{
+      margin-left: 5em;
+      margin-top: 30px;
+      width: 80%;
+    }
+    footer{
+      text-align: center;
+      float: left;
+      width: 87%;
+      background-color: rgb(99 42 19 / 70%);
+      margin:4px;
+      border: solid black 2px;
+      padding: 20px;
+      border-radius: 5px;
+      margin-left: 22px;
+    }
+    .sayfa{
+      text-decoration: none;
+      color:black;
+      font-size: 130%;
+      margin-right: 0.5em;
+      border: solid black 1px;
+      background-color: brown;
+      }
+      .bottom{
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-style: normal;
+      }
+      .activesayfa{
+        background-color: green;
+      }
+      #nav{
+        margin-top: 5px;
+      }
+  }
+    /* MOBILE */
+  @media only screen and (max-width:680px) {
+    #video{
+      margin-left: 3em;
+      margin-top: 30px;
+      width: 80%;
+    }
+    .link{
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 20px;
+      padding-left: 4%;
+      padding-right: 4%;
+      border: solid black 2px;
+      border-radius: 10%;
+      background-color: rgb(99 42 19 / 70%);
+      height: auto;
+    }
+    footer{
+      display: none;
+    }
+    .sayfa{
+      text-decoration: none;
+      color:black;
+      font-size: 130%;
+      margin-right: 0.5em;
+      border: solid black 1px;
+      background-color: brown;
+      }
+      .bottom{
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-style: normal;
+      }
+      .activesayfa{
+        background-color: green;
+      }
+      #nav{
+        margin-top: 5px;
+      }
+  }

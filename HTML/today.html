@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Hagia Sophia History</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="../CSS/today.css">
+      <link rel="icon" type="image/png" href="../Gallery/ayasofya.png">
+      <script src="../JS/jquery.js"></script>
+    </head>
+    <body>
+      <div class="baslik">
+        <header>HAGIA SOPHIA</header>
+        <h4>"Pearl of Turkey"</h4>
+
+      </div>
+      <div class="nav">
+        <nav>
+          <a id="history" class="link"  href="main.html">History</a>
+              <div class="dropdown">
+                <img class="menu" alt="" src="../images/ok.png">
+                  <div class="content">
+                    <a class="links" href="main.html">Overview</a>
+                    <a class="links" href="history.html">Hagia Sophia History</a>
+                    <a class="links" href="design.html">Hagia Sophia's Design</a>
+                    <a class="links" href="renovation.html">Renovations of Hagia Sophia</a>
+                    <a class="links" href="today.html">Hagia Sofia Today</a>
+                  </div>
+
+                </div>
+          <a id="photo" class="link" href="photo.html">Photo Gallery</a>
+          <a id="contact" class="link" href="contact.html">Contact</a>
+        </nav>
+
+      </div>
+      <section id="sol">
+        <h3>INDEX</h3>
+        <ul>
+          <li><a class="links" href="main.html">Overview</a></li>
+          <li><a class="links" href="history.html">Hagia Sophia History</a></li>
+          <li><a class="links" href="design.html">Hagia Sophia's Design</a></li>
+          <li><a class="links" href="renovation.html">Renovations of Hagia Sophia</a></li>
+          <li><a class="active links" href="today.html">Hagia Sofia Today</a></li>
+        </ul>
+      </section>
+      <div id="right">
+        <img id="foto" src="https://static.euronews.com/articles/stories/04/83/67/00/602x338_cmsv2_cb239dc7-1a04-5d82-bc68-2252edaf271a-4836700.jpg" alt="Hagia Sophia">
+        <p>The Hagia Sophia’s role in politics and religion remains a contentious and important one, even today some 100 years after the fall of the Ottoman Empire.
+          From 1935 nine years after the Republic of Turkey was established by Ataturk to 2020, the legendary structure was operated as a museum by the national government.
+          Beginning in 2013, some Islamic religious leaders in the country sought to have the Hagia Sophia once again opened as a mosque.
+          In July 2020, the Turkish Council of State and President Erdoğan reclassified it as a mosque:((</p>
+      </div>
+
+      <footer>Erdal Aras Yesil Page Copyright 2020:)
+      </footer>
+      <script>
+        let dropdownBtn = document.querySelector('.menu');
+        let menuContent = document.querySelector('.content');
+        dropdownBtn.addEventListener('click',()=>{
+          if(menuContent.style.display===""){
+              menuContent.style.display="block";
+              dropdownBtn.src="../images/Ok2.png";
+            } else {
+              menuContent.style.display="";
+              dropdownBtn.src="../images/Ok.png";
+            }
+        })
+
+
+      </script>
+
+    </body>
+</html>

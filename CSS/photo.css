@@ -1,0 +1,505 @@
+/* LARGE SCREEN  */
+@media only screen and (min-width:1109px) {
+
+body{
+  background-color: rgb(181 30 106 / 0.5);
+  margin:2px;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* HEAD SECTION */
+  header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 250%;
+    color: rgb(117 81 68);
+  }
+  h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color:rgb(117 81 68);
+  }
+  .baslik{
+    display: inline-block;
+    width: 100%;
+  }
+/* NAV SECTION */
+  nav{
+    text-align: center;
+    margin-left: 90px;
+  }
+  #nav{
+    height: 20%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 25px;
+    display: inline-block;
+    width: 95%;
+  }
+  .link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 130%;
+    padding-left: 10%;
+    padding-right:10%;
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(99 42 19 / 70%);
+    color: rgb(255 255 255 / 0.8);
+  }
+  .link:hover{
+    color: rgb(251 5 51 / 1);
+    background-color: rgb(80 28 10 / 0.8);
+    transition: ease 0.5s;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .row{
+    padding-bottom: 30px;
+  }
+  .sticky a{
+    margin-left: 40px;
+    padding: 20px;
+    background-color: rgb(99 42 19 / 100%);
+  }
+#photo{
+  color: black;
+  background-color: rgb(255 8 8 / 0.7);
+}
+#nav2{
+  display: none;
+}
+/* MAIN SECTION */
+footer{
+  text-align: center;
+  display: block;
+  float: left;
+  width: 90%;
+  background-color: rgb(99 42 19 / 70%);
+  margin:4px;
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 3em;
+}
+
+/* PHOTOS */
+.foto{
+  border: solid chocolate 2px;
+  border-radius: 5%;
+  vertical-align:middle;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px;
+  padding-left: 100px;
+}
+.sayfa{
+  text-decoration: none;
+  color:black;
+  font-size: 140%;
+  margin-right: 0.5em;
+  border: solid black 1px;
+  background-color: brown;
+  }
+  .activesayfa{
+    background-color: green;
+  }
+  .bottom{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+  }
+  #photo2{
+    color: black;
+    background-color: rgb(255 8 8 / 0.7);
+  }
+
+}
+@media only screen and (max-width:1109px) {
+  body{
+    background-color: rgb(181 30 106 / 0.5);
+    margin:2px;
+    background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /* HEAD SECTION */
+  header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 220%;
+    color: rgb(117 81 68);
+  }
+  h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color:rgb(117 81 68);
+  }
+  /* NAV SECTION */
+  .link{
+    color: rgb(255 255 255 / 0.8);
+  }
+  .link:hover{
+    color: rgb(251 5 51 / 1);
+    background-color: rgb(80 28 10 / 0.8);
+    transition: ease 0.5s;
+  }
+  nav{
+    text-align: center;
+    display:block;
+    position: relative;
+    margin-top: 10px;
+
+  }
+  .link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(99 42 19 / 70%);
+    height: auto;
+  }
+  .nav{
+    width:95%;
+    margin-top: 0.5em;
+    margin-left: 2em;
+  }
+
+  #photo{
+    color: black;
+    background-color: rgb(255 8 8 / 0.7);
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .row{
+    padding-bottom: 60px;
+  }
+  .sticky a{
+    margin-left: 40px;
+    padding: 20px;
+    background-color: rgb(99 42 19 / 100%);
+  }
+  #nav2{
+  display: none;
+  }
+  footer{
+    text-align: center;
+    display: block;
+    float: left;
+    width: 87%;
+    background-color: rgb(99 42 19 / 70%);
+    margin:4px;
+    border: solid black 2px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 1.5em;
+  }
+/* PHOTOS */
+  .foto{
+    border: solid chocolate 2px;
+    border-radius: 5%;
+    vertical-align:middle;
+    margin-top: 8px;
+    vertical-align: middle;
+    min-width: 20em;
+  }
+  .column {
+    flex: 47%;
+    max-width: 47%;
+    padding: 0 4px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px;
+    padding-left: 60px;
+  }
+  .sayfa{
+    text-decoration: none;
+    color:black;
+    font-size: 140%;
+    margin-right: 0.5em;
+    border: solid black 1px;
+    background-color: brown;
+    }
+    .activesayfa{
+      background-color: green;
+    }
+    .bottom{
+      text-align: center;
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 20px;
+      font-style: normal;
+    }
+    #photo2{
+      color: black;
+      background-color: rgb(255 8 8 / 0.7);
+    }
+}
+@media only screen and (max-width:780px) {
+  body{
+    background-color: rgb(181 30 106 / 0.5);
+    margin:2px;
+    background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /* HEAD SECTION */
+  header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 220%;
+    color: rgb(117 81 68);
+  }
+  h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color:rgb(117 81 68);
+  }
+  /* NAV SECTION */
+  .link{
+    color: rgb(255 255 255 / 0.8);
+  }
+  .link:hover{
+    color: rgb(251 5 51 / 1);
+    background-color: rgb(80 28 10 / 0.8);
+    transition: ease 0.5s;
+  }
+  nav{
+    text-align: center;
+    display:block;
+    position: relative;
+    margin-top: 10px;
+
+  }
+  .link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(99 42 19 / 70%);
+    height: auto;
+  }
+  .nav{
+    width:95%;
+    margin-top: 0.5em;
+    margin-left: 2em;
+  }
+
+  #photo{
+    color: black;
+    background-color: rgb(255 8 8 / 0.7);
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .row{
+    padding-bottom: 30px;
+  }
+  .sticky a{
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgb(99 42 19 / 100%);
+  }
+  #nav2{
+  display: none;
+  }
+/* PHOTOS */
+  .foto{
+    border: solid chocolate 2px;
+    border-radius: 5%;
+    vertical-align:middle;
+    margin-top: 8px;
+    min-width: 16em;
+  }
+  .column {
+    flex: 47%;
+    max-width: 47%;
+    padding: 0 4px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px;
+    padding-left: 30px;
+  }
+  .sayfa{
+    text-decoration: none;
+    color:black;
+    font-size: 140%;
+    margin-right: 0.5em;
+    border: solid black 1px;
+    background-color: brown;
+    }
+    .activesayfa{
+      background-color: green;
+    }
+    .bottom{
+      text-align: center;
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 20px;
+      font-style: normal;
+    }
+
+}
+/* MOBILE */
+@media only screen and (max-width:570px) {
+  body{
+    background-color: rgb(181 30 106 / 0.5);
+    margin:2px;
+    background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5c0d246dc03c0e15a49c546a.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /* HEAD SECTION */
+  header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 220%;
+    color: rgb(117 81 68);
+  }
+  h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color:rgb(117 81 68);
+  }
+  /* NAV SECTION */
+  .link:hover{
+    color: rgb(251 5 51 / 1);
+    background-color: rgb(80 28 10 / 0.8);
+    transition: ease 0.5s;
+  }
+  nav{
+    text-align: center;
+    display:block;
+    position: relative;
+    margin-top: 10px;
+
+  }
+  .link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(99 42 19 / 70%);
+    height: auto;
+    color: rgb(255 255 255 / 0.8);
+  }
+  .nav{
+    width:95%;
+    margin-top: 0.5em;
+    margin-left: 2em;
+  }
+
+  #photo{
+    color: black;
+    background-color: rgb(255 8 8 / 0.7);
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .row{
+    padding-bottom: 30px;
+  }
+  .sticky a{
+    margin-left: 20px;
+    padding: 8px;
+    background-color: rgb(99 42 19 / 100%);
+  }
+  #nav2{
+  display: none;
+  }
+/* PHOTOS */
+  .foto{
+    border: solid chocolate 2px;
+    border-radius: 5%;
+    vertical-align:middle;
+    margin-top: 8px;
+    vertical-align: middle;
+    min-width: 24em;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px;
+    padding-left: 50px;
+  }
+  .sayfa{
+    text-decoration: none;
+    color:black;
+    font-size: 140%;
+    margin-right: 0.5em;
+    border: solid black 1px;
+    background-color: brown;
+    }
+    .activesayfa{
+      background-color: green;
+    }
+    .bottom{
+      text-align: center;
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 20px;
+      font-style: normal;
+    }
+    footer{
+      display: none;
+    }
+}

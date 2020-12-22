@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Hagia Sophia History</title>
+      <link rel="stylesheet" href="../CSS/history.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/png" href="../Gallery/ayasofya.png">
+      <script src="../JS/jquery.js"></script>
+    </head>
+    <body>
+      <div class="baslik">
+        <header>HAGIA SOPHIA</header>
+        <h4>"Pearl of Turkey"</h4>
+
+      </div>
+      <div class="nav">
+        <nav>
+          <a id="history" class="link"  href="main.html">History</a>
+            <div class="dropdown">
+              <img class="menu" alt="" src="../images/ok.png">
+                <div class="content">
+                  <a class="links" href="main.html">Overview</a>
+                  <a class="links" href="history.html">Hagia Sophia History</a>
+                  <a class="links" href="design.html">Hagia Sophia's Design</a>
+                  <a class="links" href="renovation.html">Renovations of Hagia Sophia</a>
+                  <a class="links" href="today.html">Hagia Sofia Today</a>
+                </div>
+            </div>
+          <a id="photo" class="link" href="photo.html">Photo Gallery</a>
+          <a id="contact" class="link" href="contact.html">Contact</a>
+        </nav>
+
+      </div>
+      <section id="sol">
+        <h3>INDEX</h3>
+        <ul>
+          <li><a class="links" href="main.html">Overview</a></li>
+          <li><a class="links active" href="history.html">Hagia Sophia History</a></li>
+          <li><a class="links" href="design.html">Hagia Sophia's Design</a></li>
+          <li><a class="links" href="renovation.html">Renovations of Hagia Sophia</a></li>
+          <li><a class="links" href="today.html">Hagia Sofia Today</a></li>
+        </ul>
+      </section>
+      <div id="right" >
+        <img id="foto" src="https://i.pinimg.com/originals/30/14/4a/30144a10c0f99e1fc8fb7b417f984724.jpg" alt="Hagia Sophia">
+        <p> Unable to repair the damage caused by the fire, Justinian ordered the demolition of the Hagia Sophia in 532. He commissioned renowned architects Isidoros (Milet) and Anthemios (Tralles) to build a new basilica.
+          The third Hagia Sophia was completed in 537, and it remains standing today.
+          The first religious services in the “new” Hagia Sophia were held on December 27, 537. At the time, Emperor Justinian is reported to have said, “My Lord, thank you for giving me the chance to create such a worshipping place.</p>
+
+      </div>
+
+
+
+      <footer>Erdal Aras Yesil Page Copyright 2020:)
+      </footer>
+      <script>
+        let dropdownBtn = document.querySelector('.menu');
+        let menuContent = document.querySelector('.content');
+        dropdownBtn.addEventListener('click',()=>{
+          if(menuContent.style.display===""){
+              menuContent.style.display="block";
+              dropdownBtn.src="../images/Ok2.png";
+            } else {
+              menuContent.style.display="";
+              dropdownBtn.src="../images/Ok.png";
+            }
+        })
+
+
+      </script>
+
+    </body>
+</html>
