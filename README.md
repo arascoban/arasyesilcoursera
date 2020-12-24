@@ -1,4 +1,3 @@
-# arasyesilcoursera
 <div>
   <h1>Coursera-Web-Design-for-Everybody-Capstone-Project</h1>
   <p>This is a repository for the Portfolio Project (designed from scratch) of Web Design For Everybody Specialization on Coursera (University of Michigan).</p>
@@ -17,5 +16,20 @@
     <li>Added Dropdown menu and sticky nav</li>
 
   </ul>
+
+</div>
+<div>
+  <h2>Build With</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>JQUERY</li>
+  </ul>
+
+
+</div>
+<div>
+  <img src="../Screenshoots/main.jpg" alt="">
 
 </div>
