@@ -1,8 +1,7 @@
-<div>
+
   <h1>Coursera-Web-Design-for-Everybody-Capstone-Project</h1>
   <p>This is a repository for the Portfolio Project (designed from scratch) of Web Design For Everybody Specialization on Coursera (University of Michigan).</p>
-</div>
-<div>
+
   <ul>
     <li>Built HTML structure.</li>
     <li>Added CSS style.</li>
@@ -16,9 +15,6 @@
     <li>Added Dropdown menu and sticky nav</li>
 
   </ul>
-
-</div>
-<div>
   <h2>Build With</h2>
   <ul>
     <li>HTML5</li>
@@ -26,10 +22,12 @@
     <li>JavaScript</li>
     <li>JQUERY</li>
   </ul>
+  ** This is a design for Desktop screen
+
+  ![Desktop-design](https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main.JPG)
 
 
-</div>
-<div>
-  <img src="../Screenshoots/main.jpg" alt="">
+  ** This is a design for Mobile screen
 
-</div>
+
+  ![Mobile-view](https://github.com/NohaaAa/Coursera-Web-Design-for-Everybody-Capstone-Project/blob/master/Designs/mobile%20view.png)
