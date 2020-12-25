@@ -24,10 +24,10 @@
   </ul>
   ** This is a design for Desktop screen
 
-  ![Desktop-design](https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main.JPG)
+  (https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main.JPG)
 
 
   ** This is a design for Mobile screen
 
 
-  ![Mobile-view](https://github.com/NohaaAa/Coursera-Web-Design-for-Everybody-Capstone-Project/blob/master/Designs/mobile%20view.png)
+  (https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main2.JPG)
