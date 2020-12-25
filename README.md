@@ -1,6 +1,6 @@
 
-  <h1>Coursera-Web-Design-for-Everybody-Capstone-Project</h1>
-  <p>This is a repository for the Portfolio Project (designed from scratch) of Web Design For Everybody Specialization on Coursera (University of Michigan).</p>
+  <h1>Coursera Web Design for Everybody Capstone Project</h1>
+  <p>This is a repository for the Capstone Project (designed from scratch) of Web Design For Everybody Specialization on Coursera (University of Michigan).</p>
 
   <ul>
     <li>Built HTML structure.</li>
@@ -10,19 +10,19 @@
     <li>Validited On w3 Validator.</li>
     <li>Designed the website from scratch.</li>
     <li>Added a lightbox plugin.</li>
-    <li>Added Google Maps Plugin</li>
-    <li>Added  Basic Form</li>
-    <li>Added Dropdown menu and sticky nav</li>
+    <li>Added Google Maps Plugin.</li>
+    <li>Added  Basic Form.</li>
+    <li>Added Dropdown menu and sticky navigator.</li>
 
   </ul>
-  <h2>Build With</h2>
+  <h2>Build With:</h2>
   <ul>
     <li>HTML5</li>
     <li>CSS3</li>
     <li>JavaScript</li>
     <li>JQUERY</li>
   </ul>
-  You can find more pictures in the screenshoots folder or you can directly go my webpage <a href="http://cobaninsayfasi.byethost3.com/HTML/main.html">here</a>
+  You can find more pictures in the screenshoots folder or you can directly go my webpage <a href="http://cobaninsayfasi.byethost3.com/HTML/main.html">here</a><br>
   ** This is a design for Desktop screen
 
 
