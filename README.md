@@ -35,11 +35,11 @@
   ![Mobile-view](https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main2.JPG)
 
 
-  ### w3 Validation for index.html
+  ### w3 Validation for main.html
 ![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/main.JPG)
-
+  ### w3 Validation for photo.html
 ![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/photo.JPG)
-
+  ### w3 Validation for contact.html
 ![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/contact.JPG)
 
 ---
