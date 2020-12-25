@@ -22,8 +22,9 @@
     <li>JavaScript</li>
     <li>JQUERY</li>
   </ul>
-  ** This is a design for Desktop screen
   You can find more pictures in the screenshoots folder or you can directly go my webpage <a href="http://cobaninsayfasi.byethost3.com/HTML/main.html">here</a>
+  ** This is a design for Desktop screen
+
 
   ![Desktop-design](https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main.JPG)
 
@@ -32,3 +33,13 @@
 
 
   ![Mobile-view](https://github.com/arascoban/arasyesilcoursera/blob/main/Screenshoots/main2.JPG)
+
+
+  ### w3 Validation for index.html
+![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/main.JPG)
+
+![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/photo.JPG)
+
+![w3validator](https://github.com/arascoban/arasyesilcoursera/blob/main/Validator/contact.JPG)
+
+---
