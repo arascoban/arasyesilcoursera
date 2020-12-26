@@ -22,7 +22,7 @@
     <li>JavaScript</li>
     <li>JQUERY</li>
   </ul>
-  You can find more pictures in the screenshoots folder or you can directly go my webpage <a href="http://cobaninsayfasi.byethost3.com/HTML/main.html">here</a><br>
+  You can find more pictures in the screenshoots folder or you can directly go my webpage <a href="http://cobaninsayfasi.byethost3.com/Hagia%20%20Sophia/HTML/main.html">here</a><br>
   ** This is a design for Desktop screen
 
 
